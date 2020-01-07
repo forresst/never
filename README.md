@@ -2,6 +2,8 @@
 
 A function that throws when called, use with nullish coalescing to elide unexpected nullish values.
 
+Toto
+
 ## But why?
 
 Sometimes you have a function which in theory may return `undefined` or `null`, except you're already really sure that it doesn't. Explicitly guarding against those unlikely values is cumbersome. In TypeScript you could use the non-null assertion (`!`) but that's very subtle.
